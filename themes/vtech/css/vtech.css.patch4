@@ -1,0 +1,39 @@
+--- vtech.css	2018-10-02 14:00:19.949736182 -0400
++++ vtech.css.0913	2018-10-02 13:59:53.593736052 -0400
+@@ -1915,3 +1915,36 @@
+     background:url(../images/green_minus_sign.gif) right center no-repeat;
+     min-height:18px;
+ }
++/* DOI Link on Publication line */
++.doi {
++    background-color: #315bbf;  /* green background #55e614 */
++    color: #fff;
++    padding: 2px 8px;
++    border-radius: 6px;
++    font-size: 0.8em;
++}
++/* PubMed Link on Publication line */
++.pubid {
++    background-color: #00693e;  /* green background #55e614 */
++    color: #fff;
++    padding: 2px 8px;
++    border-radius: 6px;
++    font-size: 0.8em;
++}
++/* OCLC Link on Publication line */
++.oclcid {
++    background-color: #c5c555;  /* green background #55e614 */
++    color: #fff;
++    padding: 2px 8px;
++    border-radius: 6px;
++    font-size: 0.8em;
++}
++/* Handle Link on Publication line */
++.handleid {
++    background-color: #800000;  /* green background #55e614 */
++    color: #fff;
++    padding: 2px 8px;
++    border-radius: 6px;
++    font-size: 0.8em;
++}
++

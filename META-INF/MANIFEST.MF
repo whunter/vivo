@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: root
+Class-Path: vivo-api-1.9.3.jar vitro-api-1.9.3.jar asm-3.1.jar aterm-j
+ ava-1.8.2.jar jjtraveler-0.6.jar shared-objects-1.4.9.jar cglib-2.2.j
+ ar cos-05Nov2002.jar cxf-xjc-runtime-2.6.2.jar jaxb-api-2.1.jar stax-
+ api-1.0-2.jar cxf-xjc-ts-2.6.2.jar dom4j-1.6.1.jar xml-apis-1.0.b2.ja
+ r jsonld-java-0.2.jar slf4j-api-1.7.5.jar httpclient-4.2.5.jar common
+ s-codec-1.6.jar httpclient-cache-4.2.5.jar jsonld-java-jena-0.2.jar i
+ cu4j-3.4.4.jar c3p0-0.9.2-pre4.jar mchange-commons-java-0.2.2.jar ima
+ geio-jpeg-3.2.1.jar imageio-core-3.2.1.jar imageio-metadata-3.2.1.jar
+  common-lang-3.2.1.jar common-io-3.2.1.jar common-image-3.2.1.jar ima
+ geio-tiff-3.2.1.jar servlet-3.2.1.jar commons-dbcp-1.4.jar commons-po
+ ol-1.5.4.jar commons-fileupload-1.2.1.jar commons-io-2.4.jar commons-
+ lang-2.6.jar commons-logging-1.1.1.jar joda-time-1.4.jar mysql-connec
+ tor-java-5.1.36.jar jga-0.8.3.jar json-lib-2.2.2-jdk15.jar commons-be
+ anutils-1.7.0.jar commons-collections-3.2.jar ezmorph-1.0.4.jar Saxon
+ -HE-9.6.0-7.jar jfact-4.0.0.jar JavaEWAH-0.8.6.jar trove4j-3.0.3.jar 
+ owlapi-distribution-4.0.1.jar fluent-hc-4.2.5.jar httpcore-4.2.4.jar 
+ httpmime-4.2.5.jar jena-arq-2.10.1.jar jcl-over-slf4j-1.6.4.jar slf4j
+ -log4j12-1.6.4.jar log4j-1.2.16.jar jena-core-2.10.1.jar jena-iri-0.9
+ .6.jar xercesImpl-2.11.0.jar jena-sdb-1.3.6.jar jena-tdb-0.10.0.jar s
+ olr-solrj-4.7.2.jar zookeeper-3.4.5.jar wstx-asl-3.2.7.jar noggit-0.5
+ .jar dwr-2.0.M2.8.jar freemarker-2.3.23.jar jtidy-r8-20060801.jar jso
+ up-1.6.1.jar antisamy-1.4.4.jar batik-css-1.7.jar batik-ext-1.7.jar b
+ atik-util-1.7.jar xml-apis-ext-1.3.04.jar nekohtml-1.9.12.jar commons
+ -httpclient-3.1.jar taglibs-standard-spec-1.2.1.jar taglibs-standard-
+ impl-1.2.1.jar javax.json-1.0.4.jar csv-1.0.jar fedora-client-1.0.jar
+  jai_codec-1.1.3.jar jai_core-1.1.3.jar sparqltag-1.0.jar mail-1.4.ja
+ r activation-1.1.jar jaxrpc-api-1.1.jar axis-1.3.jar axis-jaxrpc-1.3.
+ jar axis-saaj-1.3.jar wsdl4j-1.5.1.jar commons-discovery-0.2.jar gson
+ -1.4.jar itextpdf-5.0.6.jar bcmail-jdk14-1.38.jar bcprov-jdk14-1.38.j
+ ar bctsp-jdk14-1.38.jar spring-beans-2.5.6.jar spring-core-2.5.6.jar 
+ spring-context-2.5.6.jar aopalliance-1.0.jar agrovocws-3.0.jar oim.vi
+ vo.scimapcore-1.0.jar orcid-api-client-0.6.0-hc425.jar jackson-annota
+ tions-2.8.6.jar jackson-core-2.8.6.jar jackson-databind-2.8.6.jar
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_181
+

@@ -1,0 +1,9 @@
+128a129,136
+>     <!-- ADDED CODE for DOI link after Publication -->
+>     <#if statement.doi??>
+>       <a href="http://dx.doi.org/${statement.doi!}" target="_blank" class="doi">DOI</a> &nbsp;
+>     </#if>
+>     <!-- ADDED CODE for PubMed link after Publication -->
+>     <#if statement.pubid??>
+>       <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=${statement.pubid!}" target="_blank" class="pubid">PubMed</a> &nbsp;
+>     </#if>

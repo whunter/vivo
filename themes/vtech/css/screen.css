@@ -1,0 +1,26 @@
+/* $This file is distributed under the terms of the license in /doc/license.txt$ */
+
+/****************************************
+****************************************
+  __  __   __  __  __    ___   
+ /\ \/\ \\/\ \/\ \/\ \  / __`\ 
+ \ \ \_/ |\ \ \ \ \_/ |/\ \L\ \
+  \ \___/  \ \_\ \___/ \ \____/
+   \/__/    \/_/\/__/   \/___/
+ 
+               
+VIVO vtech theme: screen styles (Wilma Fork)
+ 
+ Original version
+ 2015-03-12
+ 
+ Last updated
+ 2015-03-12
+ 
+*****************************************
+*****************************************/
+
+@charset "UTF-8";
+
+@import url("reset.css");
+@import url("vtech.css");

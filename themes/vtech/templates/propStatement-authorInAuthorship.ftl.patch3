@@ -1,0 +1,20 @@
+--- propStatement-authorInAuthorship.ftl	2018-09-11 10:38:01.245654577 -0400
++++ propStatement-authorInAuthorship_20180911.ftl	2018-09-11 10:37:10.301650720 -0400
+@@ -126,5 +126,17 @@
+     </#local>
+ 
+     ${resourceTitle} ${citationDetails} <@dt.yearSpan "${statement.dateTime!}" /> ${altMetric}
++    <!-- ADDED CODE for DOI link after Publication -->
++    <#if statement.doi??>
++      <a href="http://dx.doi.org/${statement.doi!}" target="_blank" class="doi">DOI</a> &nbsp;
++    </#if>
++    <!-- ADDED CODE for PubMed link after Publication -->
++    <#if statement.pubid??>
++      <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=${statement.pubid!}" target="_blank" class="pubid">PubMed</a> &nbsp;
++    </#if>
++    <!-- ADDED CODE for OCLC link after Publication -->
++    <#if statement.pubid??>
++      <a href="http://hdl.handle.net/${statement.oclcid!}" target="_blank" class="oclcid">VTechWorks</a> &nbsp;
++    </#if>
+ </#if>
+ </#macro>

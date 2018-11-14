@@ -1,0 +1,9 @@
+1917a1918,1925
+> /* PubMed Link on Publication line */
+> .pubid {
+>     background-color: #00693e;  /* green background #55e614 */
+>     color: #fff;
+>     padding: 2px 8px;
+>     border-radius: 6px;
+>     font-size: 0.8em;
+> }

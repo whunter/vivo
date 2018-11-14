@@ -1,0 +1,5 @@
+128a129,132
+>     <!-- ADDED CODE for PubMed link after Publication -->
+>     <#if statement.pubid??>
+>       <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=${statement.pubid!}" target="_blank" class="pubid">PubMed</a> &nbsp;
+>     </#if>
