@@ -71,6 +71,21 @@
     </#if>
 </#macro>
 
+
+
+<#macro customAuthors property editable template=property.template onlyVT=true inline=false >
+    <@customAuthorList property editable property.statements template onlyVT inline />
+</#macro>
+
+
+
+<#macro customAuthorList property editable statements=property.statements template=property.template onlyVT=true inline=false >
+    <#list statements as statement>
+        <@propertyListItem property statement editable><#include "${template}"></@propertyListItem>
+    </#list>
+</#macro>
+
+
 <#macro collatedObjectPropertyList property editable template=property.template >
     <#local subclasses = property.subclasses>
     <#list subclasses as subclass>
