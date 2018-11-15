@@ -51,7 +51,7 @@
                                                 <#assign limit = 5 />
                                         </#if>
                 <ul class="property-list" role="list" id="${property.localName}-${rangeClass}-List" displayLimit="${limit}">
-                  <@vtAuthors property editable />
+                  <@p.customAuthors property editable />
                 </ul>
             </article> <!-- end property --> 
 
@@ -64,7 +64,7 @@
                                                 <#assign limit = 5 />
                                         </#if>
                 <ul class="property-list" role="list" id="${property.localName}-${rangeClass}-List" displayLimit="${limit}">
-                  <@allAuthors property editable />
+                  <@p.customAuthors property editable property.template false true />
                 </ul>
             </article> <!-- end property -->
 
