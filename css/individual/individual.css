@@ -191,6 +191,9 @@ article.property ul.property-list li {
     padding: 10px 20px 5px 20px;
     background-color: #fff;
 }
+article.property ul.property-list li.inline {
+    display:inline-block;
+}
 article.property ul.subclass-property-list {
     margin-left: 0;
     list-style-position: inside;

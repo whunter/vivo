@@ -81,7 +81,9 @@
 
 <#macro customAuthorList property editable statements=property.statements template=property.template onlyVT=true inline=false >
     <#list statements as statement>
-        <@propertyListItem property statement editable><#include "${template}"></@propertyListItem>
+      <#if !onlyVT || (statement.author?? && !profileUrl(statement.uri("author"))?contains("person-")) >
+        <@propertyListItem property statement editable inline ><#include "${template}"></@propertyListItem>
+      </#if>
     </#list>
 </#macro>
 
@@ -173,13 +175,17 @@ name will be used as the label. -->
 </#macro>
 
 
-<#macro propertyListItem property statement editable >
+<#macro propertyListItem property statement editable inline=false >
     <#if property.rangeUri?? >
         <#local rangeUri = property.rangeUri /> 
     <#else>
         <#local rangeUri = "" /> 
     </#if>
-    <li role="listitem">    
+    <#if inline >
+      <li role="listitem" class="inline">
+    <#else>
+      <li role="listitem">
+    </#if>  
         <#nested>       
         <@editingLinks "${property.localName}" "${property.name}" statement editable rangeUri/>
     </li>
